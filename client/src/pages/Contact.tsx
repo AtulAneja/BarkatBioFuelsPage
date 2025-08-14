@@ -26,7 +26,7 @@ const Contact = () => {
   const { toast } = useToast();
 
   useEffect(() => {
-    document.title = "Contact Us - Barkat Bio Fuels";
+    document.title = "Contact Us - Barkat Bio Fuel";
   }, []);
 
   const form = useForm<FormValues>({

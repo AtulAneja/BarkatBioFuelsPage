@@ -5,7 +5,7 @@ import { Separator } from '@/components/ui/separator';
 
 const Products = () => {
   useEffect(() => {
-    document.title = "Products - Barkat Bio Fuels";
+    document.title = "Products - Barkat Bio Fuel";
   }, []);
 
   return (
@@ -73,7 +73,7 @@ const Products = () => {
             <div className="order-1 md:order-2">
               <div className="rounded-lg overflow-hidden shadow-lg">
                 <img 
-                  src="https://images.unsplash.com/photo-1611281386223-21def14fc3a1?ixlib=rb-1.2.1&auto=format&fit=crop&w=800&q=80" 
+                  src="/biomass-pellets.jpg" 
                   alt="Biomass pellets" 
                   className="w-full h-auto"
                 />
@@ -103,7 +103,7 @@ const Products = () => {
               <CardContent className="pt-6">
                 <div className="flex flex-col space-y-4">
                   <img 
-                    src="https://images.unsplash.com/photo-1563746924237-f81457e48c2a?ixlib=rb-1.2.1&auto=format&fit=crop&w=800&q=80" 
+                    src="/rice-fields.jpg" 
                     alt="Rice husk" 
                     className="rounded-md h-48 object-cover mb-4"
                   />
@@ -132,7 +132,7 @@ const Products = () => {
               <CardContent className="pt-6">
                 <div className="flex flex-col space-y-4">
                   <img 
-                    src="https://images.unsplash.com/photo-1588732807335-2165a155b748?ixlib=rb-1.2.1&auto=format&fit=crop&w=800&q=80" 
+                    src="/paddy-straw.jpg" 
                     alt="Paddy straw" 
                     className="rounded-md h-48 object-cover mb-4"
                   />
@@ -221,7 +221,7 @@ const Products = () => {
               <div>
                 <h3 className="font-heading font-bold text-2xl mb-4 text-primary-dark">Our Quality Commitment</h3>
                 <p className="mb-6 text-muted-foreground">
-                  At Barkat Bio Fuels, quality is not just a standard but a commitment. Every batch of biomass pellets 
+                  At Barkat Bio Fuel, quality is not just a standard but a commitment. Every batch of biomass pellets 
                   undergoes rigorous testing to ensure it meets both regulatory requirements and our own exacting standards.
                 </p>
                 

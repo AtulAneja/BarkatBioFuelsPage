@@ -5,7 +5,7 @@ import { useEffect } from 'react';
 
 const Home = () => {
   useEffect(() => {
-    document.title = "Barkat Bio Fuels - Empowering Clean Energy from Agriculture";
+    document.title = "Barkat Bio Fuel - Empowering Clean Energy from Agriculture";
   }, []);
 
   return (
@@ -14,7 +14,7 @@ const Home = () => {
       <section className="relative h-[80vh] flex items-center justify-center overflow-hidden">
         <div className="absolute inset-0 z-0">
           <img 
-            src="https://images.unsplash.com/photo-1611273426858-450d8e3c9fce?ixlib=rb-1.2.1&auto=format&fit=crop&w=1920&q=80" 
+            src="/hero-background.jpg" 
             alt="Biomass pellets production" 
             className="w-full h-full object-cover"
           />
@@ -50,7 +50,7 @@ const Home = () => {
             <h2 className="font-heading font-bold text-3xl md:text-4xl text-primary mb-4">Who We Are</h2>
             <div className="w-20 h-1 bg-secondary mx-auto mb-6"></div>
             <p className="max-w-3xl mx-auto text-neutral-medium text-lg">
-              Barkat Bio Fuels is a pioneering bioenergy company based in North India, dedicated to converting agricultural 
+              Barkat Bio Fuel is a pioneering bioenergy company based in North India, dedicated to converting agricultural 
               residues—primarily rice husk and paddy straw—into high-quality biomass pellets.
             </p>
           </div>
@@ -80,7 +80,7 @@ const Home = () => {
           <div className="grid md:grid-cols-2 gap-8 items-center mb-10">
             <div>
               <img 
-                src="https://images.unsplash.com/photo-1611281386223-21def14fc3a1?ixlib=rb-1.2.1&auto=format&fit=crop&w=800&q=80" 
+                src="/biomass-pellets.jpg" 
                 alt="Biomass pellets" 
                 className="rounded-lg shadow-lg w-full h-auto object-cover"
               />

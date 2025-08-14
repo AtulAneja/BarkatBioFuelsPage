@@ -46,7 +46,7 @@ const Footer = () => {
                   B
                 </div>
                 <div>
-                  <h3 className="font-heading font-bold text-xl">Barkat Bio Fuels</h3>
+                  <h3 className="font-heading font-bold text-xl">Barkat Bio Fuel</h3>
                 </div>
               </div>
             </Link>
@@ -113,7 +113,7 @@ const Footer = () => {
         {/* Bottom Section */}
         <div className="border-t border-white/20 mt-8 pt-8 flex flex-col md:flex-row justify-between items-center">
           <p className="text-white/60 mb-4 md:mb-0">
-            &copy; {currentYear} Barkat Bio Fuels. All rights reserved.
+            &copy; {currentYear} Barkat Bio Fuel. All rights reserved.
           </p>
           
           <div className="flex space-x-6">

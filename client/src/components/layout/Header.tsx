@@ -44,12 +44,14 @@ const Header = () => {
       <div className="container mx-auto px-4 py-3 flex justify-between items-center">
         {/* Logo and Company name */}
         <Link href="/">
-          <div className="flex items-center space-x-2 cursor-pointer">
-            <div className="w-10 h-10 rounded-full bg-primary flex items-center justify-center text-white font-bold text-xl">
-              B
-            </div>
+          <div className="flex items-center space-x-3 cursor-pointer">
+            <img 
+              src="/barkat-logo.jpeg" 
+              alt="Barkat Bio Fuel Logo" 
+              className="w-12 h-12 rounded-full object-cover"
+            />
             <div>
-              <h1 className="font-heading font-bold text-primary text-xl md:text-2xl">Barkat Bio Fuels</h1>
+              <h1 className="font-heading font-bold text-primary text-xl md:text-2xl">Barkat Bio Fuel</h1>
               <p className="text-xs md:text-sm text-muted-foreground hidden md:block">Empowering Clean Energy</p>
             </div>
           </div>

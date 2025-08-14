@@ -3,7 +3,7 @@ import { Check, PhoneCall } from 'lucide-react';
 
 const About = () => {
   useEffect(() => {
-    document.title = "About Us - Barkat Bio Fuels";
+    document.title = "About Us - Barkat Bio Fuel";
   }, []);
 
   return (
@@ -34,7 +34,7 @@ const About = () => {
             <div>
               <h2 className="font-heading font-bold text-3xl mb-6 text-primary">Who We Are</h2>
               <p className="mb-6 text-foreground">
-                Barkat Bio Fuels is a pioneering bioenergy company based in North India, dedicated to converting agricultural 
+                Barkat Bio Fuel is a pioneering bioenergy company based in North India, dedicated to converting agricultural 
                 residues—primarily rice husk and paddy straw—into high-quality biomass pellets. These pellets serve as 
                 sustainable fuel for thermal power plants, contributing to cleaner energy production and reducing air pollution.
               </p>
@@ -114,7 +114,7 @@ const About = () => {
             <h2 className="font-heading font-bold text-3xl md:text-4xl text-primary mb-4">Our Leadership</h2>
             <div className="w-20 h-1 bg-secondary mx-auto mb-6"></div>
             <p className="max-w-3xl mx-auto text-lg text-muted-foreground">
-              Meet the visionaries behind Barkat Bio Fuels who lead our mission for sustainable energy
+              Meet the visionaries behind Barkat Bio Fuel who lead our mission for sustainable energy
             </p>
           </div>
           
@@ -226,9 +226,9 @@ const About = () => {
               <path d="M14.017 21v-7.391c0-5.704 3.731-9.57 8.983-10.609l.995 2.151c-2.432.917-3.995 3.638-3.995 5.849h4v10h-9.983zm-14.017 0v-7.391c0-5.704 3.748-9.57 9-10.609l.996 2.151c-2.433.917-3.996 3.638-3.996 5.849h3.983v10h-9.983z"/>
             </svg>
             <p className="text-foreground text-xl mb-6 font-medium italic">
-              "Barkat Bio Fuels represents our commitment to sustainable development, creating value for farmers while contributing to India's clean energy future."
+              "Barkat Bio Fuel represents our commitment to sustainable development, creating value for farmers while contributing to India's clean energy future."
             </p>
-            <p className="text-primary font-heading font-medium">- The Directors, Barkat Bio Fuels</p>
+            <p className="text-primary font-heading font-medium">- The Directors, Barkat Bio Fuel</p>
           </div>
         </div>
       </section>

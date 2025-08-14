@@ -4,7 +4,7 @@ import { Card, CardContent } from '@/components/ui/card';
 
 const Operations = () => {
   useEffect(() => {
-    document.title = "Operations - Barkat Bio Fuels";
+    document.title = "Operations - Barkat Bio Fuel";
   }, []);
 
   return (
@@ -285,7 +285,7 @@ const Operations = () => {
           <div className="bg-white p-8 rounded-lg shadow-md">
             <div className="max-w-4xl mx-auto">
               <p className="text-muted-foreground mb-6 text-center">
-                At Barkat Bio Fuels, we've developed an efficient and sustainable supply chain that maximizes value 
+                At Barkat Bio Fuel, we've developed an efficient and sustainable supply chain that maximizes value 
                 for all stakeholders while minimizing environmental impact.
               </p>
               

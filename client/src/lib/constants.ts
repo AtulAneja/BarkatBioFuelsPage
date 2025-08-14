@@ -1,6 +1,6 @@
 // Company information
 export const companyInfo = {
-  name: "Barkat Bio Fuels",
+  name: "Barkat Bio Fuel",
   tagline: "Empowering Clean Energy from Agriculture",
   email: "info@barkatbiofuels.com",
   address: "North India",
