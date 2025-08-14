@@ -6,6 +6,9 @@
   "scripts": {
     "dev": "NODE_ENV=development tsx server/index.ts",
     "build": "vite build && esbuild server/index.ts --platform=node --packages=external --bundle --format=esm --outdir=dist",
+    "build:static": "vite build",
+    "build:gh-pages": "npm run build:static && cp dist/public/index.html . && cp dist/public/404.html . && cp -r dist/public/assets .",
+    "preview": "vite preview",
     "start": "NODE_ENV=production node dist/index.js",
     "check": "tsc",
     "db:push": "drizzle-kit push"
