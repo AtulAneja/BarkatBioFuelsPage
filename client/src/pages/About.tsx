@@ -25,8 +25,8 @@ const About = () => {
           <div className="grid md:grid-cols-2 gap-12 items-center">
             <div>
               <img 
-                src="https://images.unsplash.com/photo-1526383103106-edad26ae7572?ixlib=rb-1.2.1&auto=format&fit=crop&w=800&q=80" 
-                alt="Sustainable farming practices" 
+                src="/farming-harvest.jpg" 
+                alt="Agricultural harvesting and sustainable farming practices" 
                 className="rounded-lg shadow-lg w-full h-auto"
               />
             </div>

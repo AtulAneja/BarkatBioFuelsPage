@@ -80,8 +80,8 @@ const Home = () => {
           <div className="grid md:grid-cols-2 gap-8 items-center mb-10">
             <div>
               <img 
-                src="/biomass-pellets.jpg" 
-                alt="Biomass pellets" 
+                src="/biomass-pellets-new.jpg" 
+                alt="High-quality biomass pellets made from agricultural waste" 
                 className="rounded-lg shadow-lg w-full h-auto object-cover"
               />
             </div>

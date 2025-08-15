@@ -73,8 +73,8 @@ const Products = () => {
             <div className="order-1 md:order-2">
               <div className="rounded-lg overflow-hidden shadow-lg">
                 <img 
-                  src="/biomass-pellets.jpg" 
-                  alt="Biomass pellets" 
+                  src="/biomass-pellets-new.jpg" 
+                  alt="High-quality biomass pellets made from rice husk and paddy straw" 
                   className="w-full h-auto"
                 />
               </div>
